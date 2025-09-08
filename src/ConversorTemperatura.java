@@ -8,7 +8,7 @@ public class ConversorTemperatura {
     public void pedirGrausCelsius(){
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Olá, por favor digite os graus em Celsius:");
+        System.out.print("Olá, por favor digite os graus em Celsius:");
         grausEmCelsius = leitor.nextDouble();
 
         calcularFahrenheit();
